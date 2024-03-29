@@ -28,7 +28,7 @@ public class LiquidContainers2 {
 
             //Move function
             if (parts[0].equals("move")) {
-                if (Integer.valueOf(parts[1]) > 0) {
+                if (amount > 0) {
 
                     if (firstContainer.contains() >= amount) {
                         secondContainer.add(amount);
